@@ -1,8 +1,13 @@
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white font-sans">
-      <section className="relative flex flex-col items-center justify-center text-center px-6 py-32 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-zinc-900 via-black to-black opacity-95" />
+      <section 
+  className="relative flex flex-col items-center min-h-screen bg-cover bg-center"
+  style={{
+    backgroundImage: "url('/drone-bg')",
+  }}
+>
+        <div className="absolute inset-0 bg-black/60"></div>
 
         <div className="relative z-10 max-w-5xl">
           <div className="flex justify-center mb-8">
