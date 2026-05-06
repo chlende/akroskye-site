@@ -184,18 +184,18 @@ export default function Home() {
           </div>
 
           <div>
-            <p className="mb-2 text-white">
-              Telefon: +47 988 60 811
-            </p>
+  <p className="mb-2 text-white">
+    Telefon: +47 988 60 811
+  </p>
 
-            <p className="mb-2 text-white">
-            E-post: kontakt@akroskye.no
-            </p>
+  <p className="mb-2 text-white">
+    E-post: kontakt@akroskye.no
+  </p>
 
-            <p className="text-white">
-            Lokasjon: Rogaland, Norge
-        </div>
-      </section> 
-    </div>
+  <p className="text-white">
+    Lokasjon: Rogaland, Norge
+  </p>
+</div>
+    </section>
   )
 }
