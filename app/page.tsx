@@ -143,8 +143,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <section className="px-6 py-24 text-center">
+<section className="px-6 py-24 text-center bg-cover bg-center"
+  style={{
+    backgroundImage: "url('/bottom-drone.JPG')",
+  }}
+>     <div className="w-full h-full bg-black/40 flex items-center justify-center">
         <div className="max-w-4xl mx-auto bg-zinc-900 border border-zinc-800 rounded-[2rem] p-12 shadow-2xl">
           <h2 className="text-4xl font-bold mb-6">
             Trenger du dronebilder eller inspeksjon?
@@ -162,13 +165,11 @@ export default function Home() {
           </a>
         </div>
       </section>
-
       <section
         id="kontakt"
         className="border-t border-zinc-900 px-6 py-12"
       >
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between gap-8 text-zinc-400">
-          <div>
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start gap-8 text-white">         
             <div className="flex items-center gap-4 mb-3">
               <img
                 src="/akroskye-logo.png"
@@ -183,23 +184,18 @@ export default function Home() {
           </div>
 
           <div>
-            <p className="mb-2">E-post: kontakt@akroskye.no</p>
-            <p>Lokasjon: Rogaland, Norge</p>
-          </div>
+            <p className="mb-2 text-white">
+              Telefon: +47 988 60 811
+            </p>
+
+            <p className="mb-2 text-white">
+            E-post: kontakt@akroskye.no
+            </p>
+
+            <p className="text-white">
+            Lokasjon: Rogaland, Norge
         </div>
-      </section>
-      <section
-  className="h-[500px] bg-cover bg-center"
-  style={{
-    backgroundImage: "url('/bottom-drone.JPG')",
-  }}
->
-  <div className="w-full h-full bg-black/50 flex items-center justify-center">
-    <h2 className="text-5xl font-bold text-white">
-      AKROSKYE
-    </h2>
-  </div>
-</section>
+      </section> 
     </div>
   )
 }
