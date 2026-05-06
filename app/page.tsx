@@ -188,6 +188,18 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section
+  className="h-[500px] bg-cover bg-center"
+  style={{
+    backgroundImage: "url('/bottom-drone.JPG')",
+  }}
+>
+  <div className="w-full h-full bg-black/50 flex items-center justify-center">
+    <h2 className="text-5xl font-bold text-white">
+      AKROSKYE
+    </h2>
+  </div>
+</section>
     </div>
   )
 }
