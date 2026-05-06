@@ -169,7 +169,7 @@ export default function Home() {
         id="kontakt"
         className="border-t border-zinc-900 px-6 py-12"
       >
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start gap-8 text-white">         
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start gap-8 text-white">
             <div className="flex items-center gap-4 mb-3">
               <img
                 src="/akroskye-logo.png"
