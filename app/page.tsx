@@ -4,7 +4,7 @@ export default function Home() {
       <section 
   className="relative flex flex-col items-center min-h-screen bg-cover bg-center"
   style={{
-    backgroundImage: "url('/drone-bg')",
+    backgroundImage: "url('/drone-bg.JPG')",
   }}
 >
         <div className="absolute inset-0 bg-black/60"></div>
