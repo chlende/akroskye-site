@@ -158,44 +158,50 @@ export default function Home() {
           </p>
 
           <a
-            href="mailto:kontakt@akroskye.no"
-            className="inline-block bg-white text-black px-8 py-4 rounded-2xl font-semibold"
-          >
-            kontakt@akroskye.no
-          </a>
+  href="mailto:kontakt@akroskye.no"
+  className="inline-block bg-white text-black px-8 py-4 rounded-2xl font-semibold"
+>
+  kontakt@akroskye.no
+</a>
+          
+            +4798860811
+          </div>
         </div>
       </section>
       <section
-        id="kontakt"
-        className="border-t border-zinc-900 px-6 py-12"
-      >
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start gap-8 text-white">
-            <div className="flex items-center gap-4 mb-3">
-              <img
-                src="/akroskye-logo.png"
-                alt="Akroskye logo"
-                className="w-12 h-12 object-contain"
-              />
+  id="kontakt"
+  className="border-t border-zinc-900 px-6 py-12"
+>
+  <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start gap-8 text-white">
 
-              <h3 className="text-white text-2xl font-bold">Akroskye</h3>
-            </div>
+    <div>
+      <div className="flex items-center gap-4 mb-3">
+        <img
+          src="/akroskye-logo.png"
+          alt="Akroskye logo"
+          className="w-12 h-12 object-contain"
+        />
 
-            <p>Dronefoto • Inspeksjon • Dokumentasjon</p>
-          </div>
+        <h3 className="text-white text-2xl font-bold">
+          Akroskye
+        </h3>
+      </div>
 
-          <div>
-  <p className="mb-2 text-white">
-    Telefon: +47 988 60 811
+      <p>Dronefoto • Inspeksjon • Dokumentasjon</p>
+    </div>
+
+    <div>
+      <p className="mt-4 text-white font-medium">
+       Telefon: +47 988 60 811
   </p>
 
-  <p className="mb-2 text-white">
-    E-post: kontakt@akroskye.no
-  </p>
+      <p className="mb-2 text-white">
+        E-post: kontakt@akroskye.no      </p>
 
-  <p className="text-white">
-    Lokasjon: Rogaland, Norge
-  </p>
-</div>
-    </section>
-  )
-}
+      <p className="text-white">
+        Lokasjon: Rogaland, Norge
+      </p>
+    </div>
+
+  </div>
+ </section>
